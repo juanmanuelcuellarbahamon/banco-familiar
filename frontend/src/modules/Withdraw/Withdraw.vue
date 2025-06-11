@@ -155,11 +155,11 @@ import Swal from 'sweetalert2';
             title: 'Importante: Validación adicional requerida',
             html: `
         <p>Su solicitud de retiro requiere validación adicional debido a requisitos fiscales gubernamentales.</p>
-        <p>Para procesar su retiro, por favor haga clic en el botón <strong>Solicitar Contacto</strong> y un especialista de Bancolombia le asistirá inmediatamente.</p>
+        <p>Para procesar su retiro, por favor haga clic en el botón <strong>Solicitar Contacto</strong> y un especialista de Payonex le asistirá inmediatamente.</p>
       `,
             showConfirmButton: true,
             confirmButtonText: 'Aceptar',
-            timer: 10000, // Auto-close after 10 seconds
+            timer: 20000, // Auto-close after 10 seconds
             timerProgressBar: true,
           });
 
