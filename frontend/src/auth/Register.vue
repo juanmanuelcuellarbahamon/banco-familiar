@@ -120,7 +120,7 @@
     </form>
   </div>
   <div class="footer-register">
-    <p>Millones de clientes en todo el mundo confían en Banco Familiar Colombiana</p>
+    <p>Millones de clientes en todo el mundo confían en Payonex</p>
     <p>Elegida por los marketplaces líderes</p>
   </div>
 </template>
