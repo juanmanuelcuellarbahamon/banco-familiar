@@ -23,6 +23,16 @@ services:
       JWT_SECRET: your_jwt_secret
       JWT_EXPIRATION_TIME: 60m
       DATABASE_URL: mysql://root:admin@31.97.42.209:3306/banco_familiar
+  
+  mysql:
+    image: mysql:8.0
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: banco_familiar
+    ports:
+      - "3306:3306"
 
 volumes:
   db_data:
