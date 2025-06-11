@@ -91,7 +91,7 @@ export const fetchCountries = async (): Promise<string[]> => {
   const { $get } = useHttp();
 
   try {
-    const data = await $get<any[]>('https://restcountries.com/v3.1/all ');
+    const data = await $get<any[]>('https://restcountries.com/v3.1/all?fields=name');
     return data.map((country: any) => country.name.common);
   } catch (error) {
     console.error('Error fetching countries:', error);
